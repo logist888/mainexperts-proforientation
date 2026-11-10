@@ -71,6 +71,9 @@ html[data-theme="dark"] ::selection{background:#72634c;color:#fff}
 @media(max-width:600px){.header-inner{gap:10px;position:relative}.header-actions{gap:8px}.theme-toggle{width:32px;height:32px}.theme-toggle svg{width:16px;height:16px}.header .button-small>span:last-child{display:none}.header .button-small{padding:10px 12px;font-size:10px;gap:3px;min-height:36px}.header .button>span:not(:last-child){display:inline}.header .wordmark{font-size:21px;gap:6px}.header .brand-symbol{width:30px;height:21px}}
 @media(max-width:360px){.header .wordmark{font-size:19px}.header .brand-symbol{width:27px;height:19px}.header-actions{gap:6px}.header .button-small{font-size:9px;padding:10px 8px}.theme-toggle{width:29px;height:29px}}
 
+
+html[data-theme="dark"] .hero-visual{position:relative;isolation:isolate}
+html[data-theme="dark"] .hero-visual:before{content:"";position:absolute;left:3%;top:4%;width:41%;height:39%;border-radius:25px;background:#d4cec4;z-index:-1}
 </style>
 
 </head>
